@@ -1,0 +1,12 @@
+.fine {
+  background: red !important;
+  color: #fff !important;
+  width: 200px;
+  border: 0px !important;
+  box-shadow: 0px;
+}
+.fine:active {
+  border: 0px;
+  box-shadow: 0px !important;
+  -webkit-box-shadow: 0px;
+}

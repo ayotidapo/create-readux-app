@@ -1,7 +1,7 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import AnotherHeader from "./anotherhead";
-import Header3 from "./header3";
+import AnotherHeader from "./AnotherHead";
+import Header3 from "./Header3";
 
 const header = () => (
   <div>
