@@ -11,10 +11,15 @@ import "./dummy.css";
 class DummyFile extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      a: 10
+    };
   }
 
   render() {
+    const h = { ...this.state };
+    console.log(h);
+    console.log(900);
     return (
       <div>
         <button onClick={this.props.actions.ajxsuccessfxn} className="btn fine">
