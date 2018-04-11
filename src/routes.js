@@ -9,9 +9,8 @@ const routes = () => (
   <Switch>
     <Route path="/header3" component={Header3} />
     <Route path="/dummycompo" component={DummyFile} />
-
+    <Route exact path="/headers/:y" component={AnotherHeader} />
     <Route path="/header" component={Header} />
-    <Route path="/header/:y" component={AnotherHeader} />
     <Route exact path="/" component={Header3} />
     <Route component={No} />
   </Switch>
