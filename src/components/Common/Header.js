@@ -6,9 +6,10 @@ import Exam from "./Exam";
 
 const header = () => (
   <div>
-    <h1 className="text-primary">The Header of Dapson</h1>
-    <Route path="/" component={AnotherHeader} />
-    <Route path="/innerhead" component={Header3} />
+    <h1 className="text-primary">The Header of Dapson 1</h1>
+    <Route exact path="/" component={AnotherHeader} />
+    <Route path="/header/innerhead" component={Header3} />
+    <Route path="/header/innertwo" component={Exam} />
     <Route path="/io" component={Exam} />
   </div>
 );
